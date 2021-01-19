@@ -100,7 +100,7 @@ const urlMap = {
 
 };
 
-export function urlMapData() {
+ function urlMapData() {
     for (let key in urlMap) {
         urlMap[key] = BASE_URL + urlMap[key] + END;
     }
@@ -111,4 +111,8 @@ export function urlMapData() {
     urlMap['xmly_speed'] = xmly_speed;
     urlMap['jd_lotteryMachine'] = jd_lotteryMachine;
     return urlMap;
+}
+module.exports = {
+    urlMapData,
+    urlMap
 }
