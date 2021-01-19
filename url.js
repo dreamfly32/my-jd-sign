@@ -1,4 +1,4 @@
-let BASE_URL = "https://github.com/LXK9301/jd_scripts/blob/master/";
+let BASE_URL = "https://raw.githubusercontent.com/LXK9301/jd_scripts/master/";
 let END = ".js";
 
 let jd_bean_change = "jd_bean_change";
