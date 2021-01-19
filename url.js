@@ -27,7 +27,7 @@ let jd_joy_steal = "jd_joy_steal";
 let jd_jxnc = "jd_jxnc";
 let jd_kd = "jd_kd";
 let jd_live = "jd_live";
-let jd_lotteryMachine = "jd_lotteryMachine";
+let jd_lotteryMachine = "https://github.com/yangtingxiao/QuantumultX/raw/master/scripts/jd/jd_lotteryMachine.js";
 let jd_mh = "https://raw.githubusercontent.com/shylocks/Loon/main/jd_mh.js";
 let jd_moneyTree = "jd_moneyTree";
 let jd_necklace = "jd_necklace";
@@ -49,6 +49,8 @@ let jd_unsubscribe = "jd_unsubscribe";
 let jx_cfd = "https://github.com/MoPoQAQ/Script/raw/main/Me/jx_cfd.js";
 let jx_sign = "jx_sign";
 let xmly_speed = "https://github.com/Zero-S1/xmly_speed/raw/master/xmly_speed.py";
+let jd_nianCollect = "jd_nianCollect";
+let jd_nian = "jd_nian";
 export const urlMap = {
     'jd_bean_change': jd_bean_change,
     'jd_bean_home': jd_bean_home,
@@ -76,7 +78,6 @@ export const urlMap = {
     'jd_jxnc': jd_jxnc,
     'jd_kd': jd_kd,
     'jd_live': jd_live,
-    'jd_lotteryMachine': jd_lotteryMachine,
     "jd_moneyTree":jd_moneyTree,
     "jd_necklace":jd_necklace,
     'jd_nh':jd_nh,
@@ -93,15 +94,8 @@ export const urlMap = {
     'jd_unbind':jd_unbind,
     'jd_unsubscribe':jd_unsubscribe,
     'jx_sign':jx_sign,
-
-
-
-
-
-
-
-
-
+    'jd_nianCollect':jd_nianCollect,
+    'jd_nian':jd_nian,
 
 
 };
@@ -115,5 +109,6 @@ export function urlMapData() {
     urlMap['jd_rankingList']=jd_rankingList;
     urlMap['jx_cfd'] = jx_cfd;
     urlMap['xmly_speed'] = xmly_speed;
+    urlMap['jd_lotteryMachine'] = jd_lotteryMachine;
     return urlMap;
 }
