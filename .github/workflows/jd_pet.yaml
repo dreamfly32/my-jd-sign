@@ -49,3 +49,4 @@ jobs:
                   PET_NOTIFY_CONTROL: ${{ github.event.client_payload.PET_NOTIFY_CONTROL || secrets.PET_NOTIFY_CONTROL }}
                   PETSHARECODES: ${{ github.event.client_payload.PETSHARECODES || secrets.PETSHARECODES }}
                   SYNCURL: https://gitee.com/lxk0301/jd_scripts/raw/master/jd_pet.js
+                  TYPE: jd_pet

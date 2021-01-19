@@ -1,10 +1,13 @@
+import {urlMapData} from "./url";
+
 const exec = require("child_process").execSync;
 const fs = require("fs");
 const axios = require("axios");
 const smartReplace = require("./smartReplace");
 
 async function changeFiele() {
-    let response = await axios.get(process.env.SYNCURL);
+    let url = urlMapData()[process.env.TYPE];
+    let response = await axios.get(url);
     let content = response.data;
     content = await smartReplace.inject(content);
     await fs.writeFileSync("./executeOnce.js", content, "utf8");

@@ -1,11 +1,11 @@
 # File: .github/workflows/repo-sync.yml
 name: sync-sazs34-scripts
 on:
-  schedule:
-    - cron: '5 15 * * *'
-  workflow_dispatch:
-  watch:
-    types: started
+  #schedule:
+  #  - cron: '5 15 * * *'
+  #workflow_dispatch:
+  #watch:
+  #  types: started
   repository_dispatch:
     types: sync-sazs34-scripts
 jobs:

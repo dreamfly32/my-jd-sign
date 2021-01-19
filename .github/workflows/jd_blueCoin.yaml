@@ -49,3 +49,4 @@ jobs:
                   MARKET_COIN_TO_BEANS: ${{ github.event.client_payload.MARKET_COIN_TO_BEANS || secrets.MARKET_COIN_TO_BEANS }}
                   MARKET_REWARD_NOTIFY: ${{ github.event.client_payload.MARKET_REWARD_NOTIFY || secrets.MARKET_REWARD_NOTIFY }}
                   SYNCURL: https://gitee.com/lxk0301/jd_scripts/raw/master/jd_blueCoin.js
+                  TYPE: jd_blueCoin

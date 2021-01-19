@@ -47,3 +47,4 @@ jobs:
                   UN_BIND_CARD_NUM: ${{ github.event.client_payload.UN_BIND_CARD_NUM || secrets.UN_BIND_CARD_NUM }}
                   UN_BIND_STOP_CARD: ${{ github.event.client_payload.UN_BIND_STOP_CARD || secrets.UN_BIND_STOP_CARD }}
                   SYNCURL: https://gitee.com/lxk0301/jd_scripts/raw/master/jd_unbind.js
+                  TYPE: jd_unbind
