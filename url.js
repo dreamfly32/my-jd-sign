@@ -51,7 +51,7 @@ let jx_sign = "jx_sign";
 let xmly_speed = "https://github.com/Zero-S1/xmly_speed/raw/master/xmly_speed.py";
 let jd_nianCollect = "jd_nianCollect";
 let jd_nian = "jd_nian";
-export const urlMap = {
+const urlMap = {
     'jd_bean_change': jd_bean_change,
     'jd_bean_home': jd_bean_home,
     'jd_blueCoin': jd_blueCoin,
